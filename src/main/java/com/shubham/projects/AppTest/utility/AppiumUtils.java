@@ -43,8 +43,8 @@ public abstract class AppiumUtils {
 	}
 	
 	public List<HashMap<String, String>> getJsonData(String jsonFilePath) throws IOException {
-//System.getProperty("user.dir")+"//src//test//java//org//rahulshettyacademy//testData//eCommerce.json"
-		// conver json file content to json string
+//System.getProperty("user.dir")+"//src//test//java//org//user//testData//eCommerce.json"
+		// convert json file content to json string
 		String jsonContent = FileUtils.readFileToString(new File(jsonFilePath),StandardCharsets.UTF_8);
 
 		ObjectMapper mapper = new ObjectMapper();
@@ -84,45 +84,9 @@ public abstract class AppiumUtils {
 		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
 		//1. capture and place in folder //2. extent report pick file and attach to report
-		
-		
-		
 	}
 	
-	public String pid;
-//	public void startServer() {
-//	    String pid = null;
-//	    try {
-//	        // Command to be executed
-//	        String command = "appium server -ka 800 --use-plugins=device-farm,appium-dashboard --plugin-device-farm-platform=android";
-//
-//	        // Create ProcessBuilder instance with command
-//	        ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/c", "start", "cmd.exe", "/k", command);
-//
-//	        // Start the process
-//	        Process process = processBuilder.start();
-//
-//	        // Wait for a moment to ensure the new command prompt window has started
-//	        Thread.sleep(2000);
-//
-//	        // Get the PID of the new command prompt window
-//	        Process wmic = Runtime.getRuntime().exec("wmic process where \"name='cmd.exe' and not CommandLine like '%wmic%'\" get ProcessId");
-//	        BufferedReader reader = new BufferedReader(new InputStreamReader(wmic.getInputStream()));
-//	        String line;
-//	        while ((line = reader.readLine()) != null) {
-//	            line = line.trim();
-//	            if (line.matches("\\d+")) {
-//	                pid = line;
-//	                break;
-//	            }
-//	        }
-//	    } catch (IOException | InterruptedException e) {
-//	        e.printStackTrace();
-//	    }
-//	    this.pid = pid;
-//	}
-	
-	
+	public String pid;	
 	public void startServer() {
 	    String pid = null;
 	    try {
@@ -176,47 +140,7 @@ public abstract class AppiumUtils {
         }
     }
 	
-	
-	
-//	private Process process;
-//	public void startServer() {
-//        Process process = null;
-//        try {
-//            // Command to be executed
-//            String command = "appium server -ka 800 --use-plugins=device-farm,appium-dashboard --plugin-device-farm-platform=android";
-//
-//            // Create ProcessBuilder instance with command
-//            ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/c", "start", "cmd.exe", "/k", command);
-//
-//            // Start the process
-//            process = processBuilder.start();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//       this.process = process;
-//    }
-	
-		
-//	private Process process;
-//	private static final String[] COMMAND = {"cmd", "/c", "C:\\Users\\shubh\\AppData\\Roaming\\npm\\appium.cmd", "server", "-ka", "800", "--use-plugins=device-farm,appium-dashboard", "--plugin-device-farm-platform=android"};
-//
-//	public void startServer() {
-//	    try {
-//	        ProcessBuilder processBuilder = new ProcessBuilder(COMMAND);
-//	        process = processBuilder.start();
-//
-//	        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//	        String line;
-//	        while ((line = reader.readLine()) != null) {
-//	            System.out.println(line);
-//	        }
-//	    } catch (IOException e) {
-//	        e.printStackTrace();
-//	    }
-//	}
-
 	public void stopServer(String pid) {
-	//	process.destroy();
 		killProcess(pid);
 	}
 
@@ -233,29 +157,11 @@ public abstract class AppiumUtils {
 	        }
 	        return isServerRunning;
 	    }
-
-//	    public void KillServer(String YourProgramName) {
-//	    try {
-//	        // Get the list of running Java processes
-//	        Process process = Runtime.getRuntime().exec("jps");
-//	        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//	        String line;
-//	        while ((line = reader.readLine()) != null) {
-//	            // If the line contains the name of your program, get the PID
-//	            if (line.contains(YourProgramName)) {
-//	                String pid = line.split(" ")[0];
-//	                // Kill the process
-//	                Runtime.getRuntime().exec("taskkill /F /PID " + pid);
-//	            }
-//	        }
-//	    } catch (IOException e) {
-//	        e.printStackTrace();
-//	    }
-//	    }
 	    
 	    public Properties prop;
 		public FileInputStream fis;
 		public FileOutputStream out;
+		
 	    public void InitconfigFile() throws IOException {
 	    	prop = new Properties();
 		    fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//com//shubham//projects//AppTest//Resources//data.properties");

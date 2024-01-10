@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="64.447" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\Users\shubh\eclipse-workspace\AppTest\target\test-classes;F:\Users\shubh\eclipse-workspace\AppTest\target\classes;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\shubh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\shubh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shubh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shubh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shubh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\shubh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\shubh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\shubh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\shubh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\shubh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shubh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shubh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shubh\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar;C:\Users\shubh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shubh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\shubh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\shubh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shubh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shubh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shubh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\shubh\AppData\Local\Temp\surefire5076628339132354750\surefirebooter-20240110214801984_3.jar C:\Users\shubh\AppData\Local\Temp\surefire5076628339132354750 2024-01-10T21-47-58_975-jvmRun1 surefire-20240110214801984_1tmp surefire_0-20240110214801984_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\Users\shubh\eclipse-workspace\AppTest\target\test-classes;F:\Users\shubh\eclipse-workspace\AppTest\target\classes;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\shubh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\shubh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shubh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shubh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shubh\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\shubh\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\shubh\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\shubh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\shubh\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\shubh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\shubh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\shubh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\shubh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shubh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shubh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shubh\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar;C:\Users\shubh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shubh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\shubh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\shubh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shubh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shubh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shubh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shubh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\Users\shubh\eclipse-workspace\AppTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shubh\AppData\Local\Temp\surefire5076628339132354750\surefirebooter-20240110214801984_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="shubham"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shubh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shubh\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="F:\Users\shubh\eclipse-workspace\AppTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-20/bin/server;C:/Program Files/Java/jdk-20/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\shubh\AppData\Local\Android\Sdk\tools;C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools;C:\Users\shubh\AppData\Local\Android\Sdk\tools\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.3.1;C:\Users\shubh\AppData\Roaming\npm\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;C:\Users\shubh\AppData\Roaming\npm;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="SettingsTitleCheck" classname="com.shubham.projects.AppTest.SettingsTest" time="0.288">
+    <system-out><![CDATA[C://Users//shubh//AppData//Roaming//npm//node_modules//appium//build//lib//main.js
+127.0.0.1
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load plugin element-wait...
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load plugin device-farm...
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load plugin appium-dashboard...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring plugin at C:\Users\shubh\.appium\node_modules\appium-wait-plugin\lib\index.js
+&amp#27;[35m[Appium]&amp#27;[39m Requiring plugin at C:\Users\shubh\.appium\node_modules\appium-device-farm\lib\src\index.js
+&amp#27;[35m[Appium]&amp#27;[39m Requiring plugin at C:\Users\shubh\.appium\node_modules\appium-dashboard\lib\index.js
+&amp#27;[35m[Appium]&amp#27;[39m WaitCommandPlugin has been successfully loaded in 4.820s
+&amp#27;[35m[Appium]&amp#27;[39m DevicePlugin has been successfully loaded in 4.820s
+&amp#27;[35m[Appium]&amp#27;[39m AppiumDashboardPlugin has been successfully loaded in 4.819s
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Found 1 'build-tools' folders under 'C:\Users\shubh\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;0m[ADB]&amp#27;[0m     C:\Users\shubh\AppData\Local\Android\Sdk\build-tools\34.0.0
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.4.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m,
+&amp#27;[35m[Appium]&amp#27;[39m   keepAliveTimeout: &amp#27;[33m800&amp#27;[39m,
+&amp#27;[35m[Appium]&amp#27;[39m   usePlugins: [ &amp#27;[32m'element-wait'&amp#27;[39m, &amp#27;[32m'device-farm'&amp#27;[39m, &amp#27;[32m'appium-dashboard'&amp#27;[39m ] }
+&amp#27;[35m[Appium]&amp#27;[39m The autodetected Appium home path: C:\Users\shubh\.appium
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[35m[Appium]&amp#27;[39m AndroidUiautomator2Driver has been successfully loaded in 0.994s
+(node:7212) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Update server with CLI Args: {"subcommand":"server","address":"127.0.0.1","keepAliveTimeout":800,"port":4723,"usePlugins":["element-wait","device-farm","appium-dashboard"],"plugin":{"device-farm":{"platform":"android","androidDeviceType":"both","iosDeviceType":"both"}},"extraArgs":[],"allowCors":false,"allowInsecure":[],"basePath":"","callbackPort":4723,"debugLogSpacing":false,"denyInsecure":[],"localTimezone":false,"loglevel":"debug","logNoColors":false,"logTimestamp":false,"pluginsImportChunkSize":7,"driversImportChunkSize":3,"longStacktrace":false,"noPermsCheck":false,"relaxedSecurityEnabled":false,"sessionOverride":false,"strictCaps":false,"useDrivers":[],"tmpDir":"C:\\Users\\shubh\\AppData\\Local\\Temp"}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Update server with Plugin Args: {"platform":"android","iosDeviceType":"both","androidDeviceType":"both","skipChromeDownload":true,"maxSessions":8,"adbRemote":[],"emulators":[],"simulators":[],"deviceAvailabilityTimeoutMs":300000,"deviceAvailabilityQueryIntervalMs":10000,"sendNodeDevicesToHubIntervalMs":30000,"checkStaleDevicesIntervalMs":30000,"checkBlockedDevicesIntervalMs":30000,"newCommandTimeoutSec":60,"bindHostOrIp":"192.168.95.171"}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m proxy is not required for axios
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Registering proxy middleware
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Initializing database
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Creating new database: ./temp-appium/db.json
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Database loaded
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Initializing storage
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📣📣📣 Device Farm Plugin will be served at 🔗 http://192.168.95.171:4723/device-farm
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📣📣📣 I'm a hub and I'm listening on 192.168.95.171:4723
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Found 0 device candidates to be released
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Hub will clean pending sessions every 30000 ms with pending session timeout: 310000 ms
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Found 1 'build-tools' folders under 'C:\Users\shubh\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;0m[ADB]&amp#27;[0m     C:\Users\shubh\AppData\Local\Android\Sdk\build-tools\34.0.0
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m fetchAndroidDevices from host: undefined. Found 1 android devices
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Android Device details for emulator-5554 not available. So querying now.
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m skipChromeDownload server arg is set; skipping Chromedriver installation.
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Android web/hybrid testing will not be possible without Chromedriver.
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.characteristics'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.name'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Found 1 android devices
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Added 1 new devices to local database
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Unblocked device emulator-5554 from host http://192.168.95.171:4723
+&amp#27;[38;5;32m[appium-dashboard]&amp#27;[0m Dashboard plugin is enabled and will be served at http://localhost:4723/dashboard
+&amp#27;[38;5;32m[appium-dashboard]&amp#27;[0m If the appium server is started with different port other than 4723, then use the correct port number to access the device farm dashboard
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.39.0 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m Available plugins:
+&amp#27;[35m[Appium]&amp#27;[39m   - element-wait@2.0.3 (ACTIVE)
+&amp#27;[35m[Appium]&amp#27;[39m   - appium-reporter-plugin@1.1.0-beta.04
+&amp#27;[35m[Appium]&amp#27;[39m   - device-farm@8.4.6 (ACTIVE)
+&amp#27;[35m[Appium]&amp#27;[39m   - appium-dashboard@v2.0.2 (ACTIVE)
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Plugin Args: {"platform":"android","androidDeviceType":"both","iosDeviceType":"both"}
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getStatus': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getStatus'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getStatus'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getStatus'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getStatus'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.4.1"}}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m11 ms - 110&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m Request idempotency key: 2f4a1fe8-2a0b-4586-92a7-1f4027d2a4e7
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.android.settings.Settings","appium:appPackage":"com.android.settings","appium:automationName":"UIAutomator2","appium:deviceName":"emulator-5554","platformName":"ANDROID"}}}&amp#27;[39m
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.android.settings.Settings","appium:appPackage":"com.android.settings","appium:automationName":"UIAutomator2","appium:deviceName":"emulator-5554","platformName":"ANDROID"}}]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'createSession': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'createSession'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'createSession'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 pluginArgs: {"platform":"android","iosDeviceType":"both","androidDeviceType":"both","skipChromeDownload":true,"maxSessions":8,"adbRemote":[],"emulators":[],"simulators":[],"deviceAvailabilityTimeoutMs":300000,"deviceAvailabilityQueryIntervalMs":10000,"sendNodeDevicesToHubIntervalMs":30000,"checkStaleDevicesIntervalMs":30000,"checkBlockedDevicesIntervalMs":30000,"newCommandTimeoutSec":60,"bindHostOrIp":"192.168.95.171"}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Receiving session request at host: 192.168.95.171
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Creating temporary session capability_id: 5927c8c1-4bb6-45ce-af2d-26bb0de7f88a
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Max session count: 8, Busy device count: 0
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Waiting for free device. Filter: {"platform":"android","busy":false,"userBlocked":false}}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Blocking device emulator-5554 at host http://192.168.95.171:4723 for new session
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating allocated device: "{"userBlocked":false,"offline":false,"adbPort":5037,"systemPort":52028,"sdk":"14","realDevice":false,"name":"sdk_gphone64_x86_64","busy":false,"state":"device","udid":"emulator-5554","platform":"android","deviceType":"emulator","host":"http://192.168.95.171:4723","totalUtilizationTimeMilliSec":1835208,"sessionStartTime":0,"meta":{"revision":1,"created":1704903492153,"version":0,"updated":1704903492155},"$loki":1}"
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m device.host: http://192.168.95.171:4723 and pluginArgs.bindHostOrIp: 192.168.95.171
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Creating session on the same node
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'createSession'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'createSession'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Event 'newSessionRequested' logged at 1704903492991 (21:48:12 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[35m[Appium]&amp#27;[39m Will require it at C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.39.0) session
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Appium's BaseDriver version is 9.5.0
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.5.0
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m Creating session with W3C capabilities: {
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   "alwaysMatch": {
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "platformName": "ANDROID",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:appActivity": "com.android.settings.Settings",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:appPackage": "com.android.settings",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:automationName": "UIAutomator2",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:deviceName": "emulator-5554",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:clearDeviceLogsOnStart": true,
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:nativeWebScreenshot": true,
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:mjpegServerPort": 52041,
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:udid": "emulator-5554",
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:systemPort": 52042,
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:chromeDriverPort": 52043,
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     "appium:adbPort": 5037
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   },
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   "firstMatch": [
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m     {}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   ]
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m }
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m The following provided capabilities were not recognized by this driver:
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   chromeDriverPort
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad]&amp#27;[0m   adbRemoteHost
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Session created with session id: dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Starting 'com.android.settings' directly on the device
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Found 1 'build-tools' folders under 'C:\Users\shubh\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;0m[ADB]&amp#27;[0m     C:\Users\shubh\AppData\Local\Android\Sdk\build-tools\34.0.0
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m Retrieving device list
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Trying to find connected Android devices
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m Using device: emulator-5554
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Setting device id to emulator-5554
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Current device property 'ro.build.version.sdk': 34
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting device platform version
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Current device property 'ro.build.version.release': 14
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Device API level: 34
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Relaxing hidden api policy
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m No app sent in, not parsing package/activity
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m Pushing settings apk to device...
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting package info for 'io.appium.settings'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.2.0' >= '5.2.0')
+&amp#27;[38;5;0m[ADB]&amp#27;[0m There is no need to install/upgrade 'C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting IDs of all 'io.appium.settings' processes
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m io.appium.settings is already running. There is no need to reset its permissions.
+&amp#27;[38;5;112m[Logcat]&amp#27;[0m Clearing logcat logs from device
+&amp#27;[38;5;112m[Logcat]&amp#27;[0m Starting logs capture with command: C:\\Users\\shubh\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Forwarding UiAutomator2 Server port 6790 to local port 52042
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Forwarding system: 52042 to device: 6790
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:52042 tcp:6790'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m MJPEG broadcasting requested, forwarding MJPEG server port 7810 to local port 52041
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Forwarding system: 52041 to device: 7810
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:52041 tcp:7810'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Checking app cert for C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.0.apk
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Checking app cert for C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Using 'apksigner.jar' from 'C:\Users\shubh\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\shubh\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\shubh\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\shubh\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\shubh\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.0.apk
+&amp#27;[38;5;0m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 
+&amp#27;[38;5;0m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 'C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting install status for io.appium.uiautomator2.server.test
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 'io.appium.uiautomator2.server.test' is installed
+&amp#27;[38;5;0m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 
+&amp#27;[38;5;0m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-v6.0.0.apk'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 'C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.0.apk' is signed with the default certificate
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting package info for 'io.appium.uiautomator2.server'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('6.0.0' >= '6.0.0')
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\shubh\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.0.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\shubh\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Server packages are not going to be (re)installed
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 30000ms for services to be available
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m No app capability. Assuming it is already on the device
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting install status for com.android.settings
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path com.android.settings'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m 'com.android.settings' is installed
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.android.settings'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.android.settings'
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Performing shallow cleanup of automation leftovers
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m No obsolete sessions have been detected (socket hang up)
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Starting UIAutomator2 server 6.0.0
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Using UIAutomator2 server from 'C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.0.apk' and test from 'C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 30000ms for UiAutomator2 to be online...
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:52042/status] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m socket hang up
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:52042/status] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m socket hang up
+&amp#27;[38;5;128m[Instrumentation]&amp#27;[0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:52042/status] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m socket hang up
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:52042/status] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m The initialization of the instrumentation process took 3243ms
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/session' to command name 'createSession'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:52042/session] with body: {"capabilities":{"firstMatch":[{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"capabilities":{"firstMatch":[{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":...
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/appium/device/pixel_ratio] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/appium/device/system_bars] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/window/current/size' to command name 'getWindowSize'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/window/current/size] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/appium/device/info] with no body
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":2.75}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"height":2220,"width":1080}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"statusBar":66}}
+&amp#27;[38;5;96m[AndroidDriver]&amp#27;[0m Screen already unlocked, doing nothing
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Starting 'com.android.settings/com.android.settings.Settings and waiting for 'com.android.settings/com.android.settings.Settings'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.android.settings/com.android.settings.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"androidId":"976cb0b83bcb351b","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapab...
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m New AndroidUiautomator2Driver session created successfully, session dabe8338-45d5-4c82-ae20-8f474acbd233 added to master session list
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Event 'newSessionStarted' logged at 1704903501382 (21:48:21 GMT+0530 (India Standard Time))
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Timeout properties set for session dabe8338-45d5-4c82-ae20-8f474acbd233 is {"timeout":10000,"intervalBetweenAttempts":500,"excludeEnabledCheck":[]}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m session dabe8338-45d5-4c82-ae20-8f474acbd233 is created with {"timeout":10000,"intervalBetweenAttempts":500,"excludeEnabledCheck":[]}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Session response: 
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m {"protocol":"W3C","value":["dabe8338-45d5-4c82-ae20-8f474acbd233",{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037},"deviceUDID":"emulator-5554","pixelRatio":"2.75","statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":2154},"deviceApiLevel":34,"platformVersion":"14","deviceManufacturer":"Google","deviceModel":"sdk_gphone64_x86_64","deviceScreenSize":"1080x2220","deviceScreenDensity":440},"W3C"]}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Removing pending session with capability_id: 5927c8c1-4bb6-45ce-af2d-26bb0de7f88a
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Device UDID emulator-5554 blocked for session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating allocated device: "{"userBlocked":false,"offline":false,"adbPort":5037,"systemPort":52028,"sdk":"14","realDevice":false,"name":"sdk_gphone64_x86_64","busy":false,"state":"device","udid":"emulator-5554","platform":"android","deviceType":"emulator","host":"http://192.168.95.171:4723","totalUtilizationTimeMilliSec":1835208,"sessionStartTime":0,"meta":{"revision":1,"created":1704903492153,"version":0,"updated":1704903492155},"$loki":1}"
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Updating Device emulator-5554 with session ID dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;32m[appium-dashboard]&amp#27;[0m Adb found. Creating device profiler
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd-internal/session/dabe8338-45d5-4c82-ae20-8f474acbd233/appium/start_recording_screen&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"options":{"videoType":"libx264","videoFps":10,"videoScale":"1280:720","videoSize":"1280x720","timeLimit":1800}}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.startRecordingScreen() with args: [{"videoType":"libx264","videoFps":10,"videoScale":"1280:720","videoSize":"1280x720","timeLimit":1800},"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m 📱 Plugin Args: {"platform":"android","androidDeviceType":"both","iosDeviceType":"both"}
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'startRecordingScreen': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'startRecordingScreen'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'startRecordingScreen'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'startRecordingScreen'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'startRecordingScreen'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting IDs of all 'screenrecord' processes
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Screen recording has not been previously started by Appium. There is nothing to stop
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Getting IDs of all 'screenrecord' processes
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Building screenrecord process with the command line: adb -P 5037 -s emulator-5554 shell screenrecord --size 1280x720 --time-limit 180 /sdcard/d65284ef.mp4
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell "[ -e '/sdcard/d65284ef.mp4' ] && echo __PASS__"'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell "[ -e '/sdcard/d65284ef.mp4' ] && echo __PASS__"'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.startRecordingScreen() result: ""
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/appium/start_recording_screen &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m590 ms - 12&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Promoting 3 sessionless plugins to be attached to session ID dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Cached the protocol value 'W3C' for the new session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","appActivity":"com.android.settings.Settings","appPackage":"com.android.settings","automationName":"UIAutomator2","deviceName":"emulator-5554","clearDeviceLogsOnStart":true,"nativeWebScreenshot":true,"mjpegServerPort":52041,"udid":"emulator-5554","systemPort":52042,"chromeDriverPort":52043,"adbPort":5037},"deviceUDID":"emulator-5554","pixelRatio":"2.75","statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":2154},"devic...
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m9979 ms - 1243&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"script":"mobile:startActivity","args":[{"intent":"com.android.settings/com.android.settings.Settings"}]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.execute() with args: ["mobile:startActivity",[{"intent":"com.android.settings/com.android.settings.Settings"}],"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'execute': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'execute'
+&amp#27;[38;5;160m[Plugin [element-wait]]&amp#27;[0m Plugin did not know how to handle method 'mobile:startActivity'. Passing control to next
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'execute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Executing method 'mobile: startActivity'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start-activity com.android.settings/com.android.settings.Settings'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.execute() result: "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m223 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/context&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getCurrentContext': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getCurrentContext'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m27 ms - 22&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"id","value":"com.android.settings:id/homepage_title"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["id","com.android.settings:id/homepage_title","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'findElement': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'findElement'
+- Waiting to find element with id strategy for com.android.settings:id/homepage_title selector
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element with id strategy for com.android.settings:id/homepage_title selector found.
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Check if element is displayed
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff00000021/attribute/displayed' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002c-ffff-ffff00000021/attribute/displayed] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff00000021/attribute/displayed] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is displayed!
+√ Waiting to find element with id strategy for com.android.settings:id/homepage_title selector
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 0 ms for condition
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element] with body: {"strategy":"id","selector":"com.android.settings:id/homepage_title","context":"","multiple":false}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"ELEMENT":"00000000-0000-002c-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff00000021"}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff00000021","ELEMENT":"00000000-0000-002c-ffff-ffff00000021"}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m157 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff00000021/text&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Would have proxied command directly, but a plugin exists which might require its value, so will let its value be collected internally and made part of plugin chain
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getText() with args: ["00000000-0000-002c-ffff-ffff00000021","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getText': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getText'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getText'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getText'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getText'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff00000021/text' to command name 'getText'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff00000021/text] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff00000021/text] with no body
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"Settings"}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getText() result: "Settings"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff00000021/text &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m45 ms - 20&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="SearchTest" classname="com.shubham.projects.AppTest.SettingsTest" time="12.206">
+    <system-out><![CDATA[&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"script":"mobile:startActivity","args":[{"intent":"com.android.settings/com.android.settings.Settings"}]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.execute() with args: ["mobile:startActivity",[{"intent":"com.android.settings/com.android.settings.Settings"}],"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'execute': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'execute'
+&amp#27;[38;5;160m[Plugin [element-wait]]&amp#27;[0m Plugin did not know how to handle method 'mobile:startActivity'. Passing control to next
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'execute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Executing method 'mobile: startActivity'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start-activity com.android.settings/com.android.settings.Settings'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.execute() result: "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m144 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/context&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getCurrentContext': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getCurrentContext'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m22 ms - 22&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"class name","value":"android.view.ViewGroup"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["class name","android.view.ViewGroup","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'findElement': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'findElement'
+- Waiting to find element with class name strategy for android.view.ViewGroup selector
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element with class name strategy for android.view.ViewGroup selector found.
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Check if element is displayed
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff0000002b/attribute/displayed' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002c-ffff-ffff0000002b/attribute/displayed] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff0000002b/attribute/displayed] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is displayed!
+√ Waiting to find element with class name strategy for android.view.ViewGroup selector
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 0 ms for condition
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element] with body: {"strategy":"class name","selector":"android.view.ViewGroup","context":"","multiple":false}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"ELEMENT":"00000000-0000-002c-ffff-ffff0000002b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff0000002b"}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff0000002b","ELEMENT":"00000000-0000-002c-ffff-ffff0000002b"}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m146 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff0000002b/click&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-002c-ffff-ffff0000002b"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.click() with args: ["00000000-0000-002c-ffff-ffff0000002b","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'click': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'click'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'click'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'click'
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Wait for element to be clickable
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff0000002b/attribute/enabled' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002c-ffff-ffff0000002b/attribute/enabled] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff0000002b/attribute/enabled] with no body
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is enabled
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'click'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff0000002b/click' to command name 'click'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element/00000000-0000-002c-ffff-ffff0000002b/click] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff0000002b/click] with body: {"element":"00000000-0000-002c-ffff-ffff0000002b"}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":null}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd-internal/session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getScreenshot() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getScreenshot': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getScreenshot'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/screenshot' to command name 'getScreenshot'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /screenshot] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/screenshot] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17WJT3nf//1wzH4WgYUTlEUAEFEQU0eErR5qgxJzXd3Tatu03SNvvrtt/r2lxX8892v9tev9833d30YHc3u1d32zV1D9+tmrS1ao5KTkg8hiAYQB0UQYXhNMDAcJjfH8gIEXUGZgZueD6uK9flDPf9uT8zo8b7NZ/P+21qb3O6BQAAAAAAYGDmyZ4AAAAAAADARBFwAAAAAAAAwyPgAAAAAAAAhkfAAQAAAAAADI+AAwAAAAAAGB4BBwAAAAAAMDwCDgAAAAAAYHgEHAAAAAAAwPAIOAAAAAAAgOERcAAAAAAAAMMj4AAAAAAAAIZHwAEAAAAAAAyPgAMAAAAAABgeAQcAAAAAADC80MmeAPB5AwMDcrl65XK5ZLPZ9NlnZ/VZ9Vl1dnYqKSlZWVlZWpy1RImJiYqIiFRYWJjMZrI6I3K73RoYGLj+X78GBwclSSaTSWazWSEhoQoJCVFISMgkzxQAAGD6cTq71dDQoI6ODnV1daq7u1tRUVGKjo5RXFyckpOTZbFETfY0/a6lpUUJCQlBudbBQ3+47c8zM7KUkZEZlLnMBKb2Nqd7sicBDA4Oqr+/Xy5Xr65evarKyjOqrDyjpuYm9fX13XR8WFiY5s9P04rlK5SRkalZs2YpLCxcoaGhMplMk/AK/KOuzqYf/+TvfT7PZDJpac5S7djxdYWHhwdgZv7jdrvV39+vnh6nurudsrc0q62tTfbmZvX29kqSzGazLFEWzUmcq/j4eCUkWBUZGaGIiEjCDgAAgHG6dOmiqqs/U01ttS7X16vD4bjjOXGxsUpJTVVmRpYWL16i1NS7gzDTwHn//RI1NzfrySe3BeV63/1f377tzzMyMvUX3/5u...
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17WJT3nf//1wzH4WgYUTlEUAEFEQU0eErR5qgxJzXd3Tatu03SNvvrtt/r2lxX8892v9tev9833d30YHc3u1d32zV1D9+tmrS1ao5KTkg8hiAYQB0UQYXhNMDAcJjfH8gIEXUGZgZueD6uK9flDPf9uT8zo8b7NZ/P+21qb3O6BQAAAAAAYGDmyZ4AAAAAAADARBFwAAAAAAAAwyPgAAAAAAAAhkfAAQAAAAAADI+AAwAAAAAAGB4BBwAAAAAAMDwCDgAAAAAAYHgEHAAAAAAAwPAIOAAAAAAAgOERcAAAAAAAAMMj4AAAAAAAAIZHwAEAAAAAAAyPgAMAAAAAABgeAQcAAAAAADC80MmeAPB5AwMDcrl65XK5ZLPZ9NlnZ/VZ9Vl1dnYqKSlZWVlZWpy1RImJiYqIiFRYWJjMZrI6I3K73RoYGLj+X78GBwclSSaTSWazWSEhoQoJCVFISMgkzxQAAGD6cTq71dDQoI6ODnV1daq7u1tRUVGKjo5RXFyckpOTZbFETfY0/a6lpUUJCQlBudbBQ3+47c8zM7KUkZEZlLnMBKb2Nqd7sicBDA4Oqr+/Xy5Xr65evarKyjOqrDyjpuYm9fX13XR8WFiY5s9P04rlK5SRkalZs2YpLCxcoaGhMplMk/AK/KOuzqYf/+TvfT7PZDJpac5S7djxdYWHhwdgZv7jdrvV39+vnh6nurudsrc0q62tTfbmZvX29kqSzGazLFEWzUmcq/j4eCUkWBUZGaGIiEjCDgAAgHG6dOmiqqs/U01ttS7X16vD4bjjOXGxsUpJTVVmRpYWL16i1NS7gzDTwHn//RI1NzfrySe3BeV63/1f377tzzMyMvUX3/5uUOYyExBwYNIMf3vf19+n1pYWVVd/prKyo7p67aoGBgZuOt5sNsvtdsvtHv1b...
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2842 ms - 201476&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.click() result: null
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff0000002b/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3006 ms - 14&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/context&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getCurrentContext': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getCurrentContext'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m148 ms - 22&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"id","value":"com.google.android.settings.intelligence:id/open_search_view_edit_text"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["id","com.google.android.settings.intelligence:id/open_search_view_edit_text","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'findElement': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'findElement'
+- Waiting to find element with id strategy for com.google.android.settings.intelligence:id/open_search_view_edit_text selector
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element with id strategy for com.google.android.settings.intelligence:id/open_search_view_edit_text selector found.
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Check if element is displayed
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002d-ffff-ffff00000092/attribute/displayed' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002d-ffff-ffff00000092/attribute/displayed] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002d-ffff-ffff00000092/attribute/displayed] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is displayed!
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 0 ms for condition
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element] with body: {"strategy":"id","selector":"com.google.android.settings.intelligence:id/open_search_view_edit_text","context":"","multiple":false}
+√ Waiting to find element with id strategy for com.google.android.settings.intelligence:id/open_search_view_edit_text selector
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"ELEMENT":"00000000-0000-002d-ffff-ffff00000092","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002d-ffff-ffff00000092"}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002d-ffff-ffff00000092","ELEMENT":"00000000-0000-002d-ffff-ffff00000092"}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m271 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002d-ffff-ffff00000092/value&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-002d-ffff-ffff00000092","text":"Default Apps","value":["D","e","f","a","u","l","t"," ","A","p","p","s"]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.setValue() with args: [["D","e","f","a","u","l","t"," ","A","p","p","s"],"00000000-0000-002d-ffff-ffff00000092","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'setValue': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'setValue'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'setValue'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'setValue'
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Wait for element to be clickable
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/D,e,f,a,u,l,t, ,A,p,p,s/attribute/enabled' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/D,e,f,a,u,l,t, ,A,p,p,s/attribute/enabled] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/D,e,f,a,u,l,t, ,A,p,p,s/attribute/enabled] with no body
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 404: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"error":"no such element","message":"The element identified by 'D,e,f,a,u,l,t, ,A,p,p,s' is not present in the cache or has expired. Try to find it again","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: The element identified by 'D,e,f,a,u,l,t, ,A,p,p,s' is not present in the cache or has expired. Try to find it again\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:160)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(...
+&amp#27;[38;5;176m[W3C]&amp#27;[0m Matched W3C error code 'no such element' to NoSuchElementError
+NoSuchElementError: The element identified by 'D,e,f,a,u,l,t, ,A,p,p,s' is not present in the cache or has expired. Try to find it again
+    at errorFromW3CJsonCode (C:\Users\shubh\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1085:25)
+    at ProxyRequestError.getActualError (C:\Users\shubh\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:954:14)
+    at UIA2Proxy.command (C:\Users\shubh\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:353:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.getAttribute (C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\lib\commands\element.js:33:7)
+    at AndroidUiautomator2Driver.elementEnabled (C:\Users\shubh\.appium\node_modules\appium-uiautomator2-driver\lib\commands\element.js:44:19) {
+  jsonwpCode: 7,
+  error: 'no such element',
+  w3cStatus: 404,
+  _stacktrace: "io.appium.uiautomator2.common.exceptions.ElementNotFoundException: The element identified by 'D,e,f,a,u,l,t, ,A,p,p,s' is not present in the cache or has expired. Try to find it again\n" +
+    '\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:160)\n' +
+    '\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n' +
+    '\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n' +
+    '\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n' +
+    '\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n' +
+    '\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n' +
+    '\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n' +
+    '\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n' +
+    '\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n' +
+    '\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n' +
+    '\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n' +
+    '\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n' +
+    '\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n' +
+    '\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n' +
+    '\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n' +
+    '\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n' +
+    '\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n' +
+    '\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n' +
+    '\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n' +
+    '\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n' +
+    '\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n' +
+    '\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n' +
+    '\tat java.lang.Thread.run(Thread.java:1012)\n'
+}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is enabled
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'setValue'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002d-ffff-ffff00000092/value' to command name 'setValue'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Added 'value' property ["D","e","f","a","u","l","t"," ","A","p","p","s"] to 'setValue' request body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element/00000000-0000-002d-ffff-ffff00000092/value] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002d-ffff-ffff00000092/value] with body: {"elementId":"00000000-0000-002d-ffff-ffff00000092","text":"Default Apps","replace":false,"value":["D","e","f","a","u","l","t"," ","A","p","p","s"]}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":null}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd-internal/session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getScreenshot() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getScreenshot': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getScreenshot'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/screenshot' to command name 'getScreenshot'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /screenshot] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/screenshot] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WJNX/wbwOwmBMAIIMgTFAYIIiIAT99a6V4dvrW3VTrvX2/G2b9dr99Ba21+r3dvV1roV996CKEOQIYiEPTN/fyCPhJUASSBwf67L6+I8eZ7nnABGc+ec7xEVFpTrQERERERERERkxcStPQAiIiIiIiIiopZiwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVs+mtQdAVJtGo4FSWQmlUonU1FRcvnwJlxMuoaSkBF26+CAwMBBBgX3g4eEBOzsZpFIpxGJmddZIp9NBo9Hc/KOGVqsFAIhEIojFYkgkNpBIJJBIJK08UiIiIqL2p7y8DNeuXUNRURFKS0tQVlYGBwcHODo6wdnZGT4+PrC3d2jtYZpcXl4e3NzcLNLX1m3/NPp474BABAT0tshYOgJRYUG5rrUHQaTVaqFWq6FUVuL69eu4eDEOFy/G4UbuDahUqjrnS6VS+Pl1R//w/ggI6A1XV1dIpbawsbGBSCRqhWdgGlevpuKjjz9o8nUikQghfUOwaNH9sLW1NcPITEen00GtVqOiohxlZeVQ5OWioKAAitxcVFZWAgDEYjHsHezh6eEFFxcXuLm5Qyazg52djGEHERERUTOlp6chIeEyEpMSkJmRgaLiYoPXOMvl8O3aFb0DAhEU1Addu3azwEjN58CBfcjNzcXs2XMt0t8TTy5r9PGAgN54bNkTFhlLR8CA...
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WJNX/wbwOwmBMAIIMgTFAYIIiIAT99a6V4dvrW3VTrvX2/G2b9dr99Ba21+r3dvV1roV996CKEOQIYiEPTN/fyCPhJUASSBwf67L6+I8eZ7nnABGc+ec7xEVFpTrQERERERERERkxcStPQAiIiIiIiIiopZiwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVo8BBxERERERERFZPQYcRERERERERGT1GHAQERERERERkdVjwEFEREREREREVs+mtQdAVJtGo4FSWQmlUonU1FRcvnwJlxMuoaSkBF26+CAwMBBBgX3g4eEBOzsZpFIpxGJmddZIp9NBo9Hc/KOGVqsFAIhEIojFYkgkNpBIJJBIJK08UiIiIqL2p7y8DNeuXUNRURFKS0tQVlYGBwcHODo6wdnZGT4+PrC3d2jtYZpcXl4e3NzcLNLX1m3/NPp474BABAT0tshYOgJRYUG5rrUHQaTVaqFWq6FUVuL69eu4eDEOFy/G4UbuDahUqjrnS6VS+Pl1R//w/ggI6A1XV1dIpbawsbGBSCRqhWdgGlevpuKjjz9o8nUikQghfUOwaNH9sLW1NcPITEen00GtVqOiohxlZeVQ5OWioKAAitxcVFZWAgDEYjHsHezh6eEFFxcXuLm5Qyazg52djGEHERERUTOlp6chIeEyEpMSkJmRgaLiYoPXOMvl8O3aFb0DAhEU1Addu3azwEjN58CBfcjNzcXs2XMt0t8TTy5r9PGAgN54bNkTFhlLR8CAg1pN9af3KrUK+Xl5SEi4jGPHjuJ6znVoNJo654vFYuh0Ouh0+r+y9vb2CPAP...
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1356 ms - 147944&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.setValue() result: null
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002d-ffff-ffff00000092/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2294 ms - 14&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/context&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getCurrentContext': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getCurrentContext'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getCurrentContext'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m151 ms - 22&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/elements&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@resource-id=\"android:id/title\"]"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.TextView[@resource-id=\"android:id/title\"]","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'findElements': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'findElements'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'findElements'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'findElements'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'findElements'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 0 ms for condition
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/elements' to command name 'findElements'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /elements] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/elements] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"android:id/title\"]","context":"","multiple":true}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":[]}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.findElements() result: []
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4606 ms - 12&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"script":"mobile: hideKeyboard","args":[]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.execute() with args: ["mobile: hideKeyboard",[],"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'execute': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'execute'
+&amp#27;[38;5;160m[Plugin [element-wait]]&amp#27;[0m Plugin did not know how to handle method 'mobile: hideKeyboard'. Passing control to next
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'execute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Executing method 'mobile: hideKeyboard'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys input_method'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell input keyevent 111'
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys input_method'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.execute() result: true
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1169 ms - 14&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"script":"mobile: pressKey","args":[{"keycode":4}]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.execute() with args: ["mobile: pressKey",[{"keycode":4}],"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'execute': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'execute'
+&amp#27;[38;5;160m[Plugin [element-wait]]&amp#27;[0m Plugin did not know how to handle method 'mobile: pressKey'. Passing control to next
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'execute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Executing method 'mobile: pressKey'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/appium/device/press_keycode' to command name 'pressKeyCode'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /appium/device/press_keycode] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/appium/device/press_keycode] with body: {"keycode":4}
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":null}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.execute() result: null
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m272 ms - 14&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="GoogleClickByScroll" classname="com.shubham.projects.AppTest.SettingsTest" time="8.558">
+    <system-out><![CDATA[&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"script":"mobile:startActivity","args":[{"intent":"com.android.settings/com.android.settings.Settings"}]}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.execute() with args: ["mobile:startActivity",[{"intent":"com.android.settings/com.android.settings.Settings"}],"dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'execute': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'execute'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'execute'
+&amp#27;[38;5;160m[Plugin [element-wait]]&amp#27;[0m Plugin did not know how to handle method 'mobile:startActivity'. Passing control to next
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'execute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Executing method 'mobile: startActivity'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;0m[ADB]&amp#27;[0m Running 'C:\Users\shubh\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start-activity com.android.settings/com.android.settings.Settings'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.execute() result: "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.Settings }"
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/execute/sync &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m261 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Found 1 device candidates to be released
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Cleaning pending sessions...
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m No pending sessions to clean
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Tips & support\"));"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector()).scrollIntoView(text(\"Tips & support\"));","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'findElement': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'findElement'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'findElement'
+- Waiting to find element with -android uiautomator strategy for new UiScrollable(new UiSelector()).scrollIntoView(text("Tips & support")); selector
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element with -android uiautomator strategy for new UiScrollable(new UiSelector()).scrollIntoView(text("Tips & support")); selector found.
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Check if element is displayed
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff000000a5/attribute/displayed' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002c-ffff-ffff000000a5/attribute/displayed] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff000000a5/attribute/displayed] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is displayed!
+√ Waiting to find element with -android uiautomator strategy for new UiScrollable(new UiSelector()).scrollIntoView(text("Tips & support")); selector
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Waiting up to 0 ms for condition
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element' to command name 'findElement'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Tips & support\"));","context":"","multiple":false}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":{"ELEMENT":"00000000-0000-002c-ffff-ffff000000a5","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff000000a5"}}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-002c-ffff-ffff000000a5","ELEMENT":"00000000-0000-002c-ffff-ffff000000a5"}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m7368 ms - 137&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff000000a5/click&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-002c-ffff-ffff000000a5"}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.click() with args: ["00000000-0000-002c-ffff-ffff000000a5","dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'click': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'click'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'click'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'click'
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Wait for element to be clickable
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff000000a5/attribute/enabled' to command name 'getAttribute'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /element/00000000-0000-002c-ffff-ffff000000a5/attribute/enabled] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff000000a5/attribute/enabled] with no body
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"true"}
+&amp#27;[38;5;144m[wait-plugin]&amp#27;[0m Element is enabled
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'click'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/element/00000000-0000-002c-ffff-ffff000000a5/click' to command name 'click'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [POST /element/00000000-0000-002c-ffff-ffff000000a5/click] to [POST http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/element/00000000-0000-002c-ffff-ffff000000a5/click] with body: {"element":"00000000-0000-002c-ffff-ffff000000a5"}
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":null}
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd-internal/session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Calling AppiumDriver.getScreenshot() with args: ["dabe8338-45d5-4c82-ae20-8f474acbd233"]
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Clearing new command timeout pre-emptively since plugin(s) will handle this command
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugins which can handle cmd 'getScreenshot': element-wait,device-farm,appium-dashboard
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin appium-dashboard is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin device-farm is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Plugin element-wait is now handling cmd 'getScreenshot'
+&amp#27;[38;5;64m[AppiumDriver@43dc]&amp#27;[0m Executing default handling behavior for command 'getScreenshot'
+&amp#27;[38;5;16m[device-farm-main]&amp#27;[0m Updating lastCmdExecutedAt for device emulator-5554 in session dabe8338-45d5-4c82-ae20-8f474acbd233
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Matched '/screenshot' to command name 'getScreenshot'
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Proxying [GET /screenshot] to [GET http://127.0.0.1:52042/session/d2604a49-39c5-4ea3-b1e2-b849a05bb6b1/screenshot] with no body
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Got response with status 200: {"sessionId":"d2604a49-39c5-4ea3-b1e2-b849a05bb6b1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFPX/T/w971XsmTLCxsPbJbxAGMbPBhmhQBJCAkrIQNIU5JARtvs9tdv05E2bZO0TRNWRleSJk2aNIsdSMIK2yRsg8ETsLHxnrJlzd8fxsKy5CFbsiz5/XoeHtDRHUf2lfF965zPEWprmkwgIiIiIiIiInJjoqs7QERERERERETUWww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtyVzdAaL2DAYDtNpmaLVaXLx4ERcunMeF7PNoaGjAkCERiIuLw+i4MQgJCYFCoYRcLocoMqtzRyaTCQaD4dofPYxGIwBAEASIoghJkkGSJEiS5OKeEhEREXmepqZGFBcXo66uDmp1AxobG+Hj4wOVyhf+/v6IiIiAt7ePq7vpcFVVVQgKCuqTc23fsa3T52Nj4hATE9snfRkIhNqaJpOrO0FkNBqh1+uh1TajtLQU586dxblzZ1FeUQ6dTme1vVwux/DhI5A8PhkxMbEIDAyEXO4FmUwGQRBc8Aoc49Kli3ht9V/t3k8QBCSMTcCKFQ/By8vLCT1zHJPJBL1eD42mCY2NTaisqkBNTQ0qKyrQ3NwMABBFEd4+3ggNCUNAQACCgoKhVCqgUCgZdhARERH1UGHhZWRnX0BObjauFBWhrr6+y338/fwQOXQoYmPiMHr0GAwdOqwPeuo8+/d/i4qKCtxxx5I+Od9TTz/e6fMxMbF4...
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAYAAACtR1KuAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFPX/T/w971XsmTLCxsPbJbxAGMbPBhmhQBJCAkrIQNIU5JARtvs9tdv05E2bZO0TRNWRleSJk2aNIsdSMIK2yRsg8ETsLHxnrJlzd8fxsKy5CFbsiz5/XoeHtDRHUf2lfF965zPEWprmkwgIiIiIiIiInJjoqs7QERERERERETUWww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtMeAgIiIiIiIiIrfHgIOIiIiIiIiI3B4DDiIiIiIiIiJyeww4iIiIiIiIiMjtyVzdAaL2DAYDtNpmaLVaXLx4ERcunMeF7PNoaGjAkCERiIuLw+i4MQgJCYFCoYRcLocoMqtzRyaTCQaD4dofPYxGIwBAEASIoghJkkGSJEiS5OKeEhEREXmepqZGFBcXo66uDmp1AxobG+Hj4wOVyhf+/v6IiIiAt7ePq7vpcFVVVQgKCuqTc23fsa3T52Nj4hATE9snfRkIhNqaJpOrO0FkNBqh1+uh1TajtLQU586dxblzZ1FeUQ6dTme1vVwux/DhI5A8PhkxMbEIDAyEXO4FmUwGQRBc8Aoc49Kli3ht9V/t3k8QBCSMTcCKFQ/By8vLCT1zHJPJBL1eD42mCY2NTaisqkBNTQ0qKyrQ3NwMABBFEd4+3ggNCUNAQACCgoKhVCqgUCgZdhARERH1UGHhZWRnX0BObjauFBWhrr6+y338/fwQOXQoYmPiMHr0GAwdOqwPeuo8+/d/i4qKCtxxx5I+Od9TTz/e6fMxMbF44vGn+qQvAwEDDnKZ1k/vdXodqquqkJ19ARkZR1BaVgqDwWC1vSiKMJlMMJks...
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/dabe8338-45d5-4c82-ae20-8f474acbd233/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m921 ms - 285128&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;80m[AndroidUiautomator2Driver@5dad (dabe8338)]&amp#27;[0m Responding to client with driver.click() result: null
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/dabe8338-45d5-4c82-ae20-8f474acbd233/element/00000000-0000-002c-ffff-ffff000000a5/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1155 ms - 14&amp#27;[39m
+&amp#27;[38;5;48m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+Successfully scrolled!
+]]></system-out>
+  </testcase>
+</testsuite>
